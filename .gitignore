@@ -1,0 +1,13 @@
+# État d'exécution de suivi.sh (PID, journal)
+.run/
+
+# Python
+__pycache__/
+*.pyc
+
+# Métadonnées Windows/WSL
+*:Zone.Identifier
+*Zone.Identifier
+
+# Réglages locaux (chemin du projet suivi propre au poste) : partir de suivi.toml.example
+suivi.toml

@@ -1,0 +1,15 @@
+# Réglages de Suivi BMAD. Copier ce fichier en suivi.toml.
+# Les options de la ligne de commande (--root, --port, --host) l'emportent.
+
+# Dossier de l'initiative à suivre (celui qui contient tickets/). Lecture seule.
+# Un chemin relatif est lu depuis le dossier de ce fichier. Sous Windows : 'C:\chemin\...' (apostrophes).
+# root = "/chemin/vers/projet/_bmad-output/initiative-xxx"
+
+# Facultatifs :
+# port = 8765
+# host = "127.0.0.1"   # "0.0.0.0" pour ouvrir au réseau local (aucune authentification)
+
+# Synthèse IA des stories (Ollama local, facultatif). Générée à l'ouverture d'une story, jamais enregistrée.
+# ia_url = "http://localhost:11434"
+# ia_model = "qwen3.8-27b-96k"
+# ia_timeout = 120      # secondes
